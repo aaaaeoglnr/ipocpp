@@ -25,11 +25,6 @@ public:
 		return sortie;
 	}
 
-
-
-
-
-
 	Flacon& operator += (Flacon const& f)
 	{	
 	       	nom += " + " + f.getNom();
@@ -60,9 +55,6 @@ public:
 
 	
 };
-
-
-//	surcharge << using ^
 
 
 ostream& operator<<(ostream& sortie, Flacon const& f)
